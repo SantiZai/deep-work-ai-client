@@ -50,7 +50,7 @@ const Functionalities = () => {
                         return (
                             <Card key={functionality.title}>
                                 <CardHeader>
-                                    <div className="bg-slate-200 w-12 h-12 rounded-lg flex items-center justify-center mb-4">
+                                    <div className="bg-gray-200 w-12 h-12 rounded-lg flex items-center justify-center mb-4">
                                         {functionality.icon}
                                     </div>
                                     <CardTitle>{functionality.title}</CardTitle>
